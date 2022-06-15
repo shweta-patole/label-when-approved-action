@@ -12,7 +12,7 @@ if [[ -z "$GITHUB_REPOSITORY" ]]; then
 fi
 
 if [[ -z "$GITHUB_EVENT_PATH" ]]; then
-  echo "Set the GITHUB_EVENT_PATH env variable."
+  echo "Set the GITHUB_EVENT_PATH env variable"
   exit 1
 fi
 
